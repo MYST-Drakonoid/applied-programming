@@ -7,7 +7,7 @@ i am writing a dice roller program. the purpose of this is that i lov eplaying D
 i figued that this would be the easiest way for me to learn multiple concepts quickly while actually making a program
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/qD5FUIkMBmw)
 
 # Development Environment
 

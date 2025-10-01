@@ -32,7 +32,7 @@ public class Main {
 
     }
 
-    public static void outputFile(int data) {
+    public static void outputFile(int data) { //writes to a file to log any rolls
         File file = new File("output.txt");
 
         if (file.exists()) {
