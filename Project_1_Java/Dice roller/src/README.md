@@ -27,5 +27,5 @@ i do not know much of the tools that i am using besides that it is intellij, a c
 {Make a list of things that you need to fix, improve, and add in the future.}
 
 - i need to make sure that the program can handle more than one set of dice in the future, for the moment it can handle one set of dice and one modifier
-- i think i need to rewrite the program to use arrays as they will work better. i only realized this after spending a bunch of time near the end
+- i think i need to rewrite the program to use modifiable arrays as they will work better. i only realized this after spending a bunch of time near the end
 - the program could also use a better form of string handling that i only learned at the end too

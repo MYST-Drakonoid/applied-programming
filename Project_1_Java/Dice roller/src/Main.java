@@ -1,4 +1,6 @@
-import java.util.Random;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 
@@ -18,10 +20,31 @@ public class Main {
 
 
             int output = calc.listProcessing(noSpaces);
-            System.out.println(output);
+            try {
+                System.out.println(output);
+                outputFile(output);
+                System.out.println("result printed to output.txt");
+            } catch (Exception e) {
+                System.out.println("Error please try again");
+            }
 
-            System.out.println("Error please try again");
 
 
+    }
+
+    public static void outputFile(int data) {
+        File file = new File("output.txt");
+
+        if (file.exists()) {
+            try (FileWriter writer = new FileWriter("output.txt", true)) { // overwrite mode
+                writer.write(String.valueOf(data));
+            } catch (IOException e) {
+                e.printStackTrace();}
+        } else {
+            try (FileWriter writer = new FileWriter("output.txt")) { // overwrite mode
+                writer.write(String.valueOf(data));
+            } catch (IOException e) {
+                e.printStackTrace();}
+        }
     }
 }
