@@ -1,0 +1,1001 @@
+OrderID,Customer,Item,Quantity,Price,OrderDate,Comment
+1,Frank,Orange,3,1.8,2025-03-13,Good service
+2,Jane,Apple,2,5.27,2025-01-22,Late delivery
+3,,Banana,8,0.55,2025-03-10,Good service
+4,,Apple,7,1.32,2025-01-02,
+5,Eve,Pineapple,5,1.41,2025-03-29,Excellent
+6,Frank,Mango,10,9.66,2025-03-15,Excellent
+7,Hannah,Apple,5,2.52,2025-02-13,Late delivery
+8,Bob,Banana,5,5.8,2025-02-06,Excellent
+9,Ian,Watermelon,8,6.82,2025-02-22,Excellent
+10,David,Banana,6,6.02,2025-03-16,
+11,Frank,Grapes,1,3.12,2025-02-10,Late delivery
+12,Charlie,Mango,10,5.15,2025-03-30,Excellent
+13,Eve,Grapes,4,9.55,2025-03-25,Excellent
+14,Charlie,Watermelon,10,0.85,2025-02-21,Late delivery
+15,Charlie,Grapes,8,7.18,2025-03-31,Late delivery
+16,Ian,Mango,,7.85,2025-02-10,Excellent
+17,Eve,Grapes,2,8.24,2025-02-08,Good service
+18,Ian,Pineapple,,1.42,2025-01-24,Excellent
+19,Frank,Banana,2,3.56,2025-01-31,
+20,Grace,Mango,6,3.55,2025-03-17,Late delivery
+21,Alice,Grapes,10,1.02,2025-01-06,Late delivery
+22,Jane,Mango,6,5.69,2025-02-08,Good service
+23,,Banana,10,2.06,2025-03-09,
+24,Ian,Apple,2,6.64,2025-02-06,
+25,Charlie,Banana,5,9.3,2025-01-11,
+26,David,Banana,,2.59,2025-03-11,Late delivery
+27,Grace,Mango,7,7.37,2025-02-07,Late delivery
+28,Hannah,Grapes,7,8.17,2025-01-10,Late delivery
+29,Alice,Pineapple,,3.49,2025-01-27,
+30,Alice,Grapes,9,1.11,2025-02-03,Good service
+31,David,Pineapple,7,1.04,2025-03-06,Late delivery
+32,David,Grapes,8,0.66,2025-03-04,
+33,Frank,Mango,4,3.47,2025-01-20,Excellent
+34,,Mango,7,1.51,2025-02-20,Excellent
+35,Grace,Grapes,4,0.54,2025-03-30,Late delivery
+36,Grace,Grapes,4,8.69,2025-03-12,Good service
+37,David,Mango,8,8.98,2025-01-23,Good service
+38,Ian,Grapes,2,7.17,2025-03-13,
+39,Jane,Orange,7,9.25,2025-02-10,
+40,Grace,Grapes,3,9.47,2025-01-24,Late delivery
+41,,Apple,2,6.26,2025-01-14,Good service
+42,Frank,Watermelon,7,7.48,2025-02-24,
+43,Bob,Grapes,1,7.6,2025-01-05,Good service
+44,Grace,Mango,,1.01,2025-02-14,
+45,Bob,Mango,2,0.68,2025-03-08,
+46,Frank,Apple,9,2.69,2025-01-10,Excellent
+47,,Orange,2,7.52,2025-01-23,
+48,Jane,Orange,9,1.93,2025-01-02,
+49,Bob,Mango,3,2.94,2025-01-25,Late delivery
+50,Eve,Banana,7,2.6,2025-01-30,
+51,Frank,Apple,8,1.68,2025-02-09,
+52,David,Banana,5,8.58,2025-01-20,Excellent
+53,Charlie,Apple,9,7.57,2025-02-11,Late delivery
+54,Charlie,Pineapple,2,2.61,2025-03-28,Excellent
+55,Eve,Orange,10,9.39,2025-02-01,Good service
+56,Frank,Pineapple,2,7.73,2025-03-03,
+57,Eve,Mango,,9.66,2025-01-20,
+58,David,Pineapple,7,4.42,2025-01-05,Excellent
+59,Frank,Grapes,4,4.52,2025-03-12,Late delivery
+60,,Orange,2,6.54,2025-01-28,Late delivery
+61,Bob,Watermelon,2,7.97,2025-01-12,
+62,,Apple,9,0.61,2025-01-18,Good service
+63,Jane,Pineapple,9,1.4,2025-01-01,Excellent
+64,Eve,Watermelon,10,6.28,2025-01-29,Late delivery
+65,Frank,Mango,2,3.21,2025-01-25,
+66,Jane,Apple,,1.94,2025-01-31,Good service
+67,Ian,Grapes,10,4.25,2025-01-01,Late delivery
+68,Hannah,Pineapple,7,9.99,2025-03-26,Good service
+69,Jane,Orange,5,1.23,2025-01-08,Late delivery
+70,Hannah,Banana,9,1.13,2025-01-28,
+71,Jane,Watermelon,,5.54,2025-01-09,
+72,Jane,Apple,6,0.68,2025-03-04,Excellent
+73,Eve,Apple,7,7.63,2025-02-16,Excellent
+74,Frank,Apple,10,5.39,2025-03-26,Late delivery
+75,Bob,Orange,3,1.4,2025-01-22,
+76,,Apple,9,5.75,2025-01-27,Good service
+77,Alice,Grapes,9,6.54,2025-02-06,
+78,Ian,Orange,8,4.84,2025-03-22,Excellent
+79,David,Orange,8,2.63,2025-01-07,Late delivery
+80,Ian,Mango,1,7.8,2025-01-08,Late delivery
+81,Alice,Mango,4,1.5,2025-01-12,Late delivery
+82,Frank,Apple,5,0.81,2025-01-18,Good service
+83,Hannah,Orange,9,4.21,2025-01-28,Late delivery
+84,Eve,Watermelon,7,7.82,2025-01-08,Late delivery
+85,,Grapes,10,6.6,2025-02-12,
+86,Ian,Pineapple,8,7.01,2025-02-02,Excellent
+87,,Grapes,7,5.45,2025-03-05,Good service
+88,Bob,Mango,3,2.69,2025-01-03,Excellent
+89,Eve,Apple,8,1.25,2025-02-07,Excellent
+90,Hannah,Mango,2,8.8,2025-01-15,Good service
+91,David,Banana,8,5.47,2025-03-13,Excellent
+92,Frank,Mango,5,1.69,2025-02-23,Late delivery
+93,Jane,Mango,9,5.26,2025-02-18,
+94,,Mango,9,2.26,2025-02-13,
+95,Eve,Grapes,10,6.87,2025-01-31,
+96,,Banana,2,5.86,2025-03-22,Excellent
+97,Charlie,Banana,3,5.52,2025-03-15,Excellent
+98,Hannah,Apple,4,7.18,2025-02-15,
+99,,Pineapple,6,3.49,2025-01-18,Excellent
+100,,Orange,8,4.16,2025-02-15,Good service
+101,Jane,Orange,6,6.99,2025-02-23,Excellent
+102,Ian,Pineapple,2,2.34,2025-01-09,Excellent
+103,Eve,Grapes,9,2.44,2025-01-15,Good service
+104,Hannah,Orange,4,9.39,2025-01-27,
+105,Bob,Banana,8,9.57,2025-03-29,Good service
+106,Jane,Mango,8,9.81,2025-02-07,Excellent
+107,Jane,Grapes,7,0.88,2025-02-03,Excellent
+108,Grace,Banana,6,4.53,2025-02-08,Excellent
+109,Alice,Pineapple,10,0.89,2025-02-16,Late delivery
+110,,Watermelon,2,6.74,2025-01-06,Excellent
+111,Alice,Grapes,,5.83,2025-01-15,
+112,Alice,Mango,4,0.8,2025-03-20,
+113,Ian,Banana,7,4.02,2025-01-20,
+114,Grace,Grapes,7,9.82,2025-01-04,
+115,Frank,Apple,1,7.74,2025-03-17,
+116,Charlie,Mango,4,7.27,2025-02-13,
+117,Bob,Grapes,10,1.24,2025-03-03,Late delivery
+118,Grace,Banana,6,3.17,2025-02-10,
+119,Grace,Banana,6,1.58,2025-01-25,Excellent
+120,David,Orange,5,5.02,2025-01-25,Excellent
+121,Ian,Banana,4,7.25,2025-03-07,Excellent
+122,Grace,Banana,4,0.78,2025-02-22,
+123,Frank,Watermelon,10,6.06,2025-02-23,
+124,Ian,Apple,5,2.57,2025-03-08,
+125,Alice,Orange,,6.68,2025-01-27,Late delivery
+126,Hannah,Grapes,7,3.89,2025-02-19,
+127,Grace,Apple,,3.08,2025-01-05,Late delivery
+128,Frank,Orange,1,5.77,2025-03-15,Good service
+129,Hannah,Mango,,8.72,2025-01-05,Late delivery
+130,Charlie,Apple,3,6.45,2025-01-16,Late delivery
+131,Charlie,Pineapple,4,6.96,2025-02-21,Excellent
+132,Bob,Watermelon,6,7.87,2025-01-27,Late delivery
+133,,Banana,6,2.63,2025-03-28,
+134,Jane,Pineapple,6,2.4,2025-01-29,Late delivery
+135,Charlie,Watermelon,3,8.43,2025-02-07,
+136,Eve,Orange,9,0.68,2025-02-08,
+137,Alice,Orange,6,3.67,2025-03-07,
+138,Charlie,Mango,2,9.76,2025-01-25,
+139,Grace,Orange,,5.13,2025-01-15,
+140,David,Apple,8,1.62,2025-03-03,Excellent
+141,Bob,Orange,3,2.3,2025-03-18,Good service
+142,Grace,Mango,,8.73,2025-01-17,
+143,Alice,Orange,9,8.19,2025-01-05,
+144,Bob,Mango,1,8.9,2025-01-12,Excellent
+145,Alice,Banana,10,7.86,2025-01-12,Good service
+146,,Mango,7,5.9,2025-02-08,Late delivery
+147,Hannah,Mango,6,6.84,2025-03-31,Late delivery
+148,Alice,Banana,5,1.21,2025-03-01,Excellent
+149,Jane,Banana,5,2.04,2025-03-03,
+150,Frank,Orange,9,4.17,2025-03-19,Excellent
+151,Jane,Grapes,8,6.05,2025-02-12,Good service
+152,Bob,Apple,6,5.84,2025-02-09,
+153,Charlie,Pineapple,9,2.74,2025-02-03,Good service
+154,Frank,Mango,2,4.93,2025-02-28,
+155,Eve,Orange,4,7.41,2025-01-28,Late delivery
+156,Eve,Watermelon,5,5.02,2025-03-21,Good service
+157,Alice,Banana,9,4.14,2025-01-23,Good service
+158,Jane,Mango,1,3.99,2025-03-01,
+159,Frank,Orange,9,8.39,2025-01-14,Late delivery
+160,Eve,Apple,8,8.12,2025-01-30,
+161,Hannah,Mango,6,7.95,2025-03-22,
+162,Alice,Mango,5,5.37,2025-01-10,Late delivery
+163,Grace,Pineapple,5,2.83,2025-02-28,Late delivery
+164,David,Banana,5,3.22,2025-02-12,Good service
+165,Jane,Watermelon,3,3.07,2025-03-24,
+166,Frank,Pineapple,3,0.73,2025-02-27,
+167,Hannah,Banana,3,1.81,2025-01-19,
+168,Jane,Grapes,10,7.9,2025-03-16,Good service
+169,Grace,Grapes,7,3.34,2025-02-04,Excellent
+170,Jane,Grapes,2,5.61,2025-02-23,Late delivery
+171,Jane,Mango,4,2.71,2025-02-13,Excellent
+172,Charlie,Mango,6,3.51,2025-02-14,Good service
+173,Ian,Pineapple,5,1.26,2025-01-19,Good service
+174,Eve,Mango,8,6.37,2025-01-18,
+175,Charlie,Banana,4,5.81,2025-02-23,Excellent
+176,Frank,Grapes,8,9.96,2025-02-11,Late delivery
+177,Eve,Watermelon,5,7.8,2025-03-01,Excellent
+178,Ian,Banana,8,3.24,2025-03-06,Late delivery
+179,Ian,Orange,4,8.26,2025-03-10,Excellent
+180,Ian,Orange,5,0.63,2025-02-12,Good service
+181,Eve,Watermelon,6,6.68,2025-01-26,Late delivery
+182,Jane,Watermelon,2,2.61,2025-03-31,
+183,Alice,Orange,10,1.74,2025-02-16,
+184,Charlie,Apple,1,8.36,2025-02-14,Excellent
+185,Bob,Apple,6,3.83,2025-03-01,Excellent
+186,Alice,Apple,10,5.89,2025-03-20,Late delivery
+187,David,Banana,5,0.85,2025-03-12,Late delivery
+188,Charlie,Mango,1,3.38,2025-03-08,Good service
+189,Charlie,Watermelon,1,4.02,2025-03-30,
+190,David,Pineapple,9,9.85,2025-01-16,
+191,Hannah,Orange,4,9.02,2025-01-06,Excellent
+192,Grace,Pineapple,7,2.24,2025-03-26,Excellent
+193,David,Orange,9,7.37,2025-02-19,
+194,Grace,Grapes,3,7.68,2025-02-07,
+195,Eve,Grapes,4,6.64,2025-03-20,
+196,Frank,Banana,2,1.23,2025-01-22,
+197,David,Watermelon,2,5.14,2025-03-08,
+198,Bob,Grapes,9,4.76,2025-02-02,Late delivery
+199,,Apple,3,3.6,2025-01-13,
+200,Bob,Pineapple,4,8.48,2025-02-22,
+201,Ian,Grapes,6,8.62,2025-02-28,
+202,Charlie,Banana,1,5.61,2025-02-04,Excellent
+203,Ian,Watermelon,8,9.54,2025-02-25,Good service
+204,Frank,Banana,5,5.95,2025-03-29,Late delivery
+205,Ian,Grapes,10,2.65,2025-01-23,
+206,Grace,Pineapple,5,6.15,2025-01-15,
+207,Eve,Watermelon,2,7.15,2025-01-27,
+208,Jane,Mango,,6.26,2025-01-29,Late delivery
+209,,Pineapple,3,0.71,2025-01-09,Excellent
+210,Jane,Banana,2,0.93,2025-02-26,
+211,Grace,Pineapple,3,1.38,2025-02-27,
+212,Eve,Apple,9,1.29,2025-02-23,
+213,,Apple,2,3.83,2025-03-27,Excellent
+214,Bob,Apple,9,6.15,2025-01-23,Late delivery
+215,Eve,Grapes,8,7.41,2025-03-31,Excellent
+216,,Apple,2,7.96,2025-03-13,
+217,,Orange,4,1.89,2025-01-05,Good service
+218,Grace,Apple,4,1.45,2025-02-10,
+219,Charlie,Grapes,8,0.89,2025-03-20,Good service
+220,Jane,Banana,9,7.91,2025-02-19,
+221,Grace,Apple,7,7.19,2025-02-03,
+222,Grace,Grapes,8,5.47,2025-02-11,Excellent
+223,Grace,Pineapple,2,5.12,2025-03-11,Excellent
+224,Frank,Apple,8,8.55,2025-03-18,Late delivery
+225,Grace,Banana,5,5.49,2025-03-23,
+226,Alice,Watermelon,,9.97,2025-02-24,Late delivery
+227,,Watermelon,3,4.34,2025-03-31,
+228,Jane,Grapes,9,9.32,2025-01-13,Good service
+229,Hannah,Pineapple,8,2.22,2025-01-31,
+230,Frank,Grapes,2,3.73,2025-03-20,
+231,,Grapes,2,5.66,2025-03-01,Excellent
+232,Charlie,Orange,10,4.01,2025-03-28,Late delivery
+233,Charlie,Apple,5,0.97,2025-02-02,Excellent
+234,Hannah,Banana,,3.45,2025-01-01,Good service
+235,Ian,Watermelon,2,8.96,2025-03-04,Late delivery
+236,Frank,Orange,,2.97,2025-03-30,
+237,Grace,Grapes,6,7.26,2025-01-15,Good service
+238,Hannah,Banana,1,7.2,2025-03-28,Excellent
+239,Grace,Pineapple,2,6.71,2025-03-28,
+240,Charlie,Grapes,9,6.58,2025-02-12,
+241,Frank,Grapes,3,1.32,2025-02-03,
+242,David,Banana,10,6.17,2025-02-28,
+243,,Mango,6,4.66,2025-02-18,
+244,Bob,Mango,3,7.62,2025-03-07,
+245,,Mango,2,6.52,2025-02-11,Excellent
+246,,Banana,9,8.66,2025-03-12,Good service
+247,Frank,Orange,7,7.59,2025-01-18,
+248,Jane,Grapes,4,8.74,2025-01-21,
+249,Hannah,Banana,4,3.53,2025-03-07,Good service
+250,,Grapes,10,8.42,2025-01-16,Excellent
+251,Charlie,Apple,8,5.5,2025-02-21,Late delivery
+252,Bob,Pineapple,8,8.75,2025-03-01,
+253,Eve,Apple,7,3.61,2025-02-12,Good service
+254,Bob,Grapes,,6.05,2025-03-21,Excellent
+255,Hannah,Banana,1,2.27,2025-03-29,Good service
+256,Hannah,Watermelon,5,2.62,2025-02-20,Late delivery
+257,Hannah,Orange,9,4.17,2025-03-30,
+258,Grace,Pineapple,7,0.85,2025-02-01,Good service
+259,Bob,Banana,6,4.26,2025-03-16,Excellent
+260,Hannah,Orange,1,9.29,2025-03-07,Good service
+261,Hannah,Grapes,4,7.9,2025-02-27,
+262,Hannah,Watermelon,10,6.16,2025-02-28,Excellent
+263,Charlie,Mango,10,5.29,2025-01-22,Good service
+264,,Pineapple,2,3.87,2025-02-11,Late delivery
+265,Charlie,Pineapple,4,4.26,2025-02-20,
+266,Bob,Watermelon,9,2.05,2025-02-24,
+267,Frank,Grapes,6,4.24,2025-03-01,Excellent
+268,Jane,Orange,10,6.93,2025-02-05,Excellent
+269,,Orange,1,5.77,2025-02-13,Late delivery
+270,Alice,Apple,4,3.21,2025-03-06,
+271,Grace,Pineapple,8,3.37,2025-01-02,Late delivery
+272,Hannah,Banana,1,8.9,2025-01-02,Late delivery
+273,Ian,Orange,4,7.22,2025-02-11,
+274,Hannah,Banana,10,8.17,2025-02-26,Good service
+275,Alice,Mango,2,4.66,2025-03-06,
+276,Ian,Apple,1,2.56,2025-02-21,
+277,Bob,Banana,10,1.83,2025-03-01,
+278,Grace,Orange,5,9.34,2025-03-31,Good service
+279,Grace,Orange,,5.85,2025-01-21,Late delivery
+280,Grace,Apple,8,1.18,2025-03-09,
+281,Hannah,Pineapple,2,1.84,2025-01-12,Good service
+282,Frank,Grapes,7,3.3,2025-01-10,Late delivery
+283,Charlie,Banana,7,6.6,2025-03-23,Excellent
+284,Charlie,Apple,9,5.15,2025-02-06,Excellent
+285,Charlie,Apple,7,7.58,2025-02-08,Late delivery
+286,Alice,Pineapple,2,4.73,2025-03-22,Good service
+287,David,Mango,5,6.71,2025-01-18,
+288,Jane,Banana,7,3.81,2025-03-31,Late delivery
+289,Hannah,Mango,1,9.8,2025-01-12,
+290,Jane,Apple,7,1.03,2025-03-03,
+291,Charlie,Grapes,10,8.16,2025-02-14,Excellent
+292,Bob,Watermelon,9,0.74,2025-03-16,Good service
+293,,Banana,4,5.33,2025-02-02,Excellent
+294,Bob,Mango,10,4.17,2025-03-23,Late delivery
+295,,Grapes,8,9.26,2025-03-26,Excellent
+296,Jane,Apple,4,9.29,2025-01-16,
+297,Alice,Pineapple,9,6.63,2025-03-08,
+298,David,Pineapple,7,5.24,2025-03-11,
+299,Grace,Pineapple,1,2.43,2025-03-08,Good service
+300,Grace,Grapes,3,4.01,2025-01-19,Good service
+301,,Grapes,1,7.12,2025-01-20,Excellent
+302,Charlie,Watermelon,2,9.9,2025-01-22,Good service
+303,Alice,Orange,8,1.69,2025-01-20,Late delivery
+304,Hannah,Mango,9,4.98,2025-01-25,Late delivery
+305,Frank,Mango,10,3.73,2025-01-11,Late delivery
+306,,Pineapple,6,5.71,2025-03-14,Late delivery
+307,Grace,Apple,10,7.87,2025-03-31,Late delivery
+308,Bob,Banana,7,6.88,2025-01-16,Excellent
+309,Bob,Grapes,9,3.48,2025-01-27,Late delivery
+310,Eve,Orange,9,1.09,2025-03-28,Late delivery
+311,Alice,Mango,,3.2,2025-02-16,Good service
+312,Grace,Banana,2,3.37,2025-03-27,Excellent
+313,Charlie,Mango,10,8.34,2025-02-07,
+314,Ian,Watermelon,7,5.83,2025-02-01,Late delivery
+315,Hannah,Apple,4,9.7,2025-03-27,Excellent
+316,Bob,Orange,6,8.9,2025-01-22,Excellent
+317,Bob,Watermelon,8,9.05,2025-01-10,Late delivery
+318,Hannah,Banana,10,8.37,2025-02-14,Excellent
+319,Eve,Orange,8,4.84,2025-01-08,Excellent
+320,Bob,Apple,2,8.27,2025-02-21,Good service
+321,Charlie,Watermelon,10,5.75,2025-03-22,Late delivery
+322,Frank,Pineapple,5,1.12,2025-01-21,
+323,Eve,Orange,4,6.43,2025-03-13,Late delivery
+324,Alice,Orange,8,5.61,2025-02-10,Good service
+325,Charlie,Apple,10,9.2,2025-01-25,Excellent
+326,Eve,Apple,7,2.65,2025-02-26,Late delivery
+327,Charlie,Orange,7,7.19,2025-03-10,Good service
+328,Charlie,Grapes,,1.2,2025-03-03,Excellent
+329,David,Pineapple,4,8.42,2025-01-04,
+330,David,Watermelon,5,3.5,2025-03-22,Good service
+331,Frank,Watermelon,9,9.02,2025-01-09,
+332,Ian,Apple,5,0.75,2025-03-02,
+333,Hannah,Orange,,9.0,2025-01-07,Excellent
+334,Charlie,Apple,3,4.18,2025-02-14,
+335,Jane,Watermelon,7,1.97,2025-01-23,Excellent
+336,Alice,Orange,9,9.41,2025-03-12,Late delivery
+337,Jane,Apple,9,9.91,2025-02-01,
+338,Ian,Orange,,2.07,2025-03-01,Excellent
+339,Bob,Pineapple,4,5.38,2025-02-27,Excellent
+340,Charlie,Apple,10,6.84,2025-01-04,
+341,Bob,Pineapple,,8.49,2025-03-01,Late delivery
+342,Bob,Watermelon,5,3.32,2025-01-01,Late delivery
+343,Jane,Mango,10,3.15,2025-01-19,Good service
+344,Ian,Banana,9,3.37,2025-02-06,
+345,Alice,Pineapple,6,9.31,2025-01-28,Late delivery
+346,David,Apple,8,9.36,2025-03-15,Good service
+347,Frank,Banana,9,8.55,2025-01-12,Good service
+348,Frank,Mango,,1.54,2025-01-14,
+349,Ian,Orange,8,3.76,2025-01-26,
+350,Bob,Pineapple,4,5.6,2025-02-18,Good service
+351,Jane,Mango,10,9.62,2025-01-27,
+352,Frank,Apple,3,8.55,2025-03-25,Good service
+353,Frank,Mango,8,6.52,2025-01-07,
+354,David,Apple,8,0.72,2025-01-03,
+355,David,Apple,5,5.91,2025-01-10,
+356,Frank,Orange,10,6.06,2025-02-08,Excellent
+357,Hannah,Mango,,3.97,2025-03-03,
+358,David,Watermelon,2,8.23,2025-02-21,Good service
+359,Frank,Watermelon,1,3.22,2025-03-29,
+360,Alice,Apple,7,3.94,2025-01-03,
+361,Charlie,Banana,8,5.29,2025-01-19,Late delivery
+362,Charlie,Orange,3,6.62,2025-01-06,Good service
+363,Ian,Orange,6,6.68,2025-01-04,Late delivery
+364,Hannah,Watermelon,3,1.26,2025-02-19,
+365,Charlie,Apple,,9.68,2025-03-13,
+366,David,Mango,10,7.86,2025-03-05,
+367,David,Banana,7,8.13,2025-01-06,Late delivery
+368,Ian,Orange,2,6.24,2025-02-01,Excellent
+369,Charlie,Mango,2,3.72,2025-03-29,
+370,Alice,Apple,,8.83,2025-03-08,Excellent
+371,David,Watermelon,5,0.53,2025-03-26,Excellent
+372,Hannah,Apple,,6.89,2025-01-08,Late delivery
+373,Frank,Watermelon,1,9.81,2025-01-07,Late delivery
+374,,Watermelon,4,4.81,2025-03-28,Good service
+375,Bob,Pineapple,8,4.91,2025-01-26,Excellent
+376,Hannah,Apple,2,1.22,2025-03-10,Good service
+377,Hannah,Banana,4,9.86,2025-01-20,
+378,Hannah,Apple,3,5.25,2025-03-20,Late delivery
+379,Bob,Banana,6,2.89,2025-01-17,
+380,Charlie,Grapes,3,3.43,2025-02-05,Excellent
+381,Alice,Banana,6,0.85,2025-03-01,Good service
+382,Jane,Orange,3,1.04,2025-01-25,
+383,Jane,Banana,,9.48,2025-01-02,Good service
+384,Bob,Banana,2,5.37,2025-02-06,Late delivery
+385,Frank,Apple,7,9.62,2025-03-11,Late delivery
+386,Hannah,Watermelon,9,9.38,2025-01-09,Excellent
+387,Alice,Apple,9,9.95,2025-02-12,Late delivery
+388,David,Watermelon,10,1.96,2025-02-11,
+389,Hannah,Apple,3,3.94,2025-01-16,Excellent
+390,Jane,Watermelon,6,2.8,2025-03-26,Excellent
+391,David,Banana,5,5.92,2025-03-10,Late delivery
+392,Grace,Banana,9,2.13,2025-01-03,
+393,Bob,Grapes,4,8.16,2025-03-15,Excellent
+394,Hannah,Pineapple,5,2.46,2025-03-23,Good service
+395,Alice,Pineapple,4,9.62,2025-02-18,
+396,David,Watermelon,6,4.01,2025-03-17,
+397,Alice,Mango,2,1.81,2025-01-26,
+398,David,Banana,3,0.88,2025-03-28,Excellent
+399,David,Apple,2,3.21,2025-03-08,Good service
+400,,Banana,,5.43,2025-03-20,
+401,Frank,Apple,10,7.78,2025-03-22,Late delivery
+402,Ian,Watermelon,4,2.49,2025-03-16,Good service
+403,,Watermelon,8,6.98,2025-01-21,
+404,Eve,Mango,10,2.11,2025-02-13,
+405,Hannah,Apple,2,5.37,2025-02-03,Excellent
+406,Frank,Grapes,1,7.23,2025-01-29,Good service
+407,Charlie,Apple,7,4.8,2025-03-11,
+408,Jane,Mango,4,7.66,2025-03-25,
+409,Alice,Mango,9,1.21,2025-01-07,Late delivery
+410,Frank,Orange,4,3.92,2025-01-23,Late delivery
+411,David,Mango,1,0.82,2025-01-03,Good service
+412,Frank,Pineapple,9,8.59,2025-03-18,Good service
+413,Eve,Apple,6,0.66,2025-03-28,Good service
+414,Eve,Grapes,5,3.18,2025-02-18,
+415,Hannah,Pineapple,,4.44,2025-02-07,Good service
+416,Ian,Pineapple,3,3.58,2025-01-12,Late delivery
+417,Ian,Watermelon,9,0.76,2025-03-04,
+418,Bob,Grapes,1,8.68,2025-03-09,Excellent
+419,Alice,Orange,5,7.47,2025-01-03,
+420,Grace,Mango,1,3.95,2025-03-25,
+421,Alice,Banana,2,4.34,2025-01-07,Excellent
+422,,Banana,8,1.32,2025-02-27,
+423,Frank,Pineapple,9,8.53,2025-03-19,
+424,Charlie,Banana,,3.84,2025-03-13,Good service
+425,Ian,Orange,5,4.71,2025-03-15,Excellent
+426,Grace,Orange,,6.15,2025-02-28,Late delivery
+427,Frank,Grapes,6,3.93,2025-01-31,Excellent
+428,Eve,Pineapple,10,5.86,2025-02-07,Good service
+429,David,Orange,,7.57,2025-03-26,Late delivery
+430,Frank,Watermelon,4,1.41,2025-03-29,
+431,Charlie,Orange,8,0.75,2025-02-08,Good service
+432,Frank,Grapes,,5.77,2025-01-26,Excellent
+433,Frank,Watermelon,8,5.23,2025-02-27,Excellent
+434,Hannah,Watermelon,1,1.42,2025-02-21,
+435,Frank,Pineapple,3,3.94,2025-03-12,Good service
+436,Ian,Pineapple,2,5.04,2025-01-20,Good service
+437,David,Mango,5,9.07,2025-01-08,Excellent
+438,Ian,Apple,7,3.09,2025-03-08,
+439,Charlie,Grapes,,3.11,2025-02-09,
+440,,Watermelon,4,3.1,2025-02-07,
+441,Eve,Apple,2,3.46,2025-02-02,Excellent
+442,Ian,Watermelon,10,4.05,2025-02-23,
+443,Grace,Grapes,4,6.66,2025-02-04,
+444,Charlie,Watermelon,4,1.96,2025-02-08,
+445,Ian,Watermelon,3,8.78,2025-02-02,
+446,Jane,Apple,10,1.77,2025-01-29,
+447,,Grapes,10,4.15,2025-03-14,Good service
+448,Alice,Mango,7,4.98,2025-01-20,Late delivery
+449,Grace,Banana,3,5.46,2025-02-03,
+450,Jane,Orange,5,1.49,2025-01-31,Good service
+451,David,Watermelon,2,5.03,2025-03-06,
+452,David,Watermelon,6,3.3,2025-02-26,Good service
+453,Hannah,Grapes,4,4.08,2025-01-17,Good service
+454,Alice,Watermelon,4,7.15,2025-03-17,Good service
+455,Grace,Grapes,,9.62,2025-02-17,
+456,Eve,Grapes,2,8.24,2025-01-02,Good service
+457,Bob,Mango,9,3.58,2025-03-28,Excellent
+458,Ian,Mango,3,2.44,2025-03-11,
+459,Ian,Grapes,10,0.75,2025-03-31,Late delivery
+460,Ian,Grapes,10,9.48,2025-02-15,Good service
+461,Frank,Banana,9,7.09,2025-03-26,Late delivery
+462,Ian,Mango,,9.78,2025-03-04,Excellent
+463,Grace,Watermelon,5,5.73,2025-03-09,Late delivery
+464,Frank,Mango,8,5.35,2025-03-25,Late delivery
+465,Ian,Watermelon,5,3.67,2025-03-14,
+466,Hannah,Banana,6,6.45,2025-01-14,Excellent
+467,Bob,Banana,1,3.4,2025-01-21,
+468,Eve,Banana,1,7.18,2025-02-12,
+469,Charlie,Apple,2,8.45,2025-01-27,
+470,Jane,Pineapple,3,3.78,2025-03-03,Good service
+471,Grace,Watermelon,3,0.73,2025-01-23,Good service
+472,Hannah,Watermelon,9,3.06,2025-02-03,Good service
+473,Bob,Pineapple,4,3.3,2025-02-06,
+474,,Orange,5,4.22,2025-02-21,
+475,David,Pineapple,10,5.26,2025-02-28,Good service
+476,Bob,Orange,8,7.23,2025-03-13,Late delivery
+477,David,Mango,2,5.21,2025-02-09,Excellent
+478,Ian,Grapes,7,7.96,2025-01-06,
+479,Grace,Banana,3,4.4,2025-02-23,Good service
+480,David,Watermelon,,8.77,2025-01-30,
+481,Grace,Grapes,2,7.88,2025-02-28,Excellent
+482,Eve,Grapes,,2.17,2025-01-17,Excellent
+483,Frank,Watermelon,7,9.16,2025-03-25,Late delivery
+484,Hannah,Orange,5,7.82,2025-02-17,Late delivery
+485,Ian,Orange,9,0.67,2025-01-23,Excellent
+486,Ian,Grapes,5,7.21,2025-03-10,Late delivery
+487,Grace,Orange,,2.42,2025-01-02,
+488,David,Orange,10,1.08,2025-03-16,
+489,Grace,Pineapple,2,7.07,2025-03-14,
+490,David,Grapes,8,1.14,2025-01-31,Late delivery
+491,Hannah,Apple,4,2.9,2025-02-01,Late delivery
+492,,Apple,10,4.51,2025-02-24,
+493,Grace,Grapes,1,2.95,2025-01-20,Excellent
+494,Eve,Watermelon,3,8.76,2025-01-01,
+495,Charlie,Grapes,3,2.62,2025-02-07,Excellent
+496,Ian,Pineapple,5,9.05,2025-01-12,Excellent
+497,David,Apple,,7.39,2025-01-19,Good service
+498,Alice,Banana,2,6.0,2025-03-25,Excellent
+499,Alice,Pineapple,6,6.58,2025-01-07,Good service
+500,Eve,Mango,8,7.03,2025-01-22,
+501,Bob,Grapes,5,0.7,2025-03-24,
+502,Grace,Grapes,9,9.14,2025-01-14,
+503,Grace,Grapes,5,2.66,2025-01-10,Late delivery
+504,Hannah,Banana,1,8.7,2025-02-07,
+505,Frank,Grapes,9,6.08,2025-01-23,Excellent
+506,Ian,Mango,9,6.08,2025-02-11,
+507,Jane,Grapes,7,8.23,2025-02-23,Late delivery
+508,,Banana,5,0.55,2025-02-17,Late delivery
+509,Charlie,Watermelon,,6.19,2025-03-01,Good service
+510,Grace,Pineapple,7,4.47,2025-01-09,Late delivery
+511,Grace,Mango,9,4.06,2025-02-09,Good service
+512,Jane,Watermelon,6,3.75,2025-03-27,Excellent
+513,Grace,Grapes,5,7.89,2025-03-19,
+514,Jane,Pineapple,9,7.44,2025-03-18,
+515,Ian,Orange,9,9.62,2025-01-01,Excellent
+516,Jane,Pineapple,1,9.47,2025-02-11,Good service
+517,David,Grapes,10,4.22,2025-01-28,Good service
+518,Bob,Pineapple,7,1.58,2025-02-20,Late delivery
+519,Ian,Mango,,0.75,2025-03-15,
+520,Jane,Watermelon,10,9.2,2025-01-05,
+521,David,Pineapple,1,6.47,2025-02-17,
+522,Frank,Grapes,8,9.73,2025-03-31,Good service
+523,Hannah,Apple,6,3.17,2025-03-27,
+524,Charlie,Grapes,,4.85,2025-01-28,
+525,Ian,Banana,10,3.38,2025-01-05,Late delivery
+526,Hannah,Watermelon,6,1.15,2025-01-14,
+527,Hannah,Mango,5,5.89,2025-02-08,Good service
+528,Alice,Apple,9,3.82,2025-03-16,Good service
+529,Jane,Mango,1,5.35,2025-02-11,
+530,Frank,Grapes,1,4.88,2025-02-27,Excellent
+531,Ian,Pineapple,,9.94,2025-02-14,Good service
+532,Frank,Apple,4,8.6,2025-01-24,
+533,Charlie,Pineapple,9,8.77,2025-03-29,
+534,Alice,Watermelon,6,1.88,2025-02-25,Good service
+535,Ian,Watermelon,2,1.91,2025-01-10,Good service
+536,Frank,Grapes,9,0.58,2025-01-21,Late delivery
+537,David,Grapes,3,2.08,2025-03-26,
+538,Bob,Mango,7,5.17,2025-02-23,
+539,Bob,Pineapple,1,6.22,2025-01-11,Excellent
+540,Alice,Grapes,7,4.31,2025-02-06,Late delivery
+541,Frank,Apple,1,4.85,2025-03-16,Late delivery
+542,Charlie,Grapes,7,8.32,2025-02-23,Late delivery
+543,Hannah,Grapes,2,9.46,2025-01-22,
+544,Jane,Watermelon,3,4.93,2025-01-05,Late delivery
+545,Ian,Watermelon,6,4.17,2025-02-15,Excellent
+546,Grace,Banana,2,1.72,2025-02-05,Excellent
+547,Eve,Grapes,5,2.67,2025-02-01,Excellent
+548,Bob,Apple,3,6.68,2025-03-31,
+549,Hannah,Grapes,2,7.34,2025-02-14,
+550,Bob,Pineapple,7,0.85,2025-03-22,
+551,Grace,Banana,,3.37,2025-01-28,
+552,David,Banana,,2.23,2025-01-13,Good service
+553,Grace,Orange,8,3.48,2025-03-17,
+554,Charlie,Grapes,4,5.24,2025-02-16,
+555,,Orange,6,8.16,2025-01-06,Late delivery
+556,Charlie,Apple,2,5.96,2025-02-16,Excellent
+557,,Watermelon,,3.86,2025-03-21,Late delivery
+558,Hannah,Grapes,1,1.21,2025-03-20,Excellent
+559,Frank,Banana,3,1.27,2025-02-12,Late delivery
+560,Eve,Watermelon,6,8.55,2025-01-10,
+561,Hannah,Mango,4,6.0,2025-02-24,Late delivery
+562,Ian,Orange,8,9.04,2025-01-06,Late delivery
+563,Bob,Orange,7,1.42,2025-03-14,Good service
+564,,Grapes,9,3.41,2025-03-11,
+565,Jane,Banana,10,3.19,2025-03-04,Late delivery
+566,Eve,Watermelon,2,2.9,2025-03-13,Good service
+567,Jane,Banana,7,3.85,2025-01-04,
+568,Grace,Orange,4,6.29,2025-03-10,
+569,Charlie,Mango,3,8.01,2025-03-11,Good service
+570,Alice,Apple,4,0.66,2025-02-10,Good service
+571,David,Apple,7,9.27,2025-01-03,
+572,Hannah,Banana,10,0.59,2025-01-22,Excellent
+573,Grace,Watermelon,6,6.55,2025-02-03,
+574,Eve,Pineapple,2,9.68,2025-03-15,Excellent
+575,Bob,Apple,2,3.73,2025-01-08,
+576,Frank,Orange,6,1.05,2025-03-27,Late delivery
+577,Alice,Mango,10,9.49,2025-03-22,Excellent
+578,Jane,Pineapple,4,8.72,2025-02-15,
+579,Bob,Grapes,1,7.3,2025-03-11,Excellent
+580,David,Watermelon,10,0.68,2025-02-22,Late delivery
+581,Charlie,Orange,10,7.35,2025-02-26,Excellent
+582,Grace,Banana,10,3.8,2025-03-12,Good service
+583,Bob,Grapes,6,2.4,2025-02-12,Late delivery
+584,Hannah,Mango,3,3.65,2025-01-20,Excellent
+585,Ian,Apple,8,6.83,2025-03-03,Excellent
+586,Grace,Orange,10,8.35,2025-03-26,
+587,David,Mango,4,3.84,2025-01-06,Late delivery
+588,Grace,Orange,9,6.02,2025-03-29,
+589,Alice,Apple,6,6.17,2025-01-31,Excellent
+590,David,Orange,6,6.97,2025-02-28,Good service
+591,Grace,Watermelon,3,6.88,2025-02-23,
+592,Charlie,Orange,10,3.52,2025-03-24,Excellent
+593,Ian,Mango,2,7.89,2025-03-25,
+594,Grace,Pineapple,9,3.12,2025-02-04,Good service
+595,Frank,Banana,10,8.01,2025-01-08,Late delivery
+596,Frank,Banana,,6.67,2025-03-15,Late delivery
+597,,Pineapple,7,5.55,2025-01-14,Late delivery
+598,,Grapes,1,4.62,2025-03-27,
+599,,Orange,10,4.15,2025-02-17,
+600,David,Pineapple,6,4.39,2025-02-18,Excellent
+601,Eve,Mango,4,4.34,2025-01-18,Late delivery
+602,Frank,Apple,10,3.71,2025-01-18,Excellent
+603,Jane,Banana,6,8.4,2025-01-20,
+604,,Mango,1,4.64,2025-03-11,
+605,Ian,Pineapple,5,4.49,2025-02-20,Late delivery
+606,,Pineapple,9,3.46,2025-01-13,Late delivery
+607,Jane,Apple,4,3.09,2025-03-13,Late delivery
+608,Alice,Pineapple,2,9.1,2025-02-15,
+609,Grace,Apple,7,3.75,2025-03-10,Late delivery
+610,Jane,Pineapple,,4.99,2025-03-15,
+611,Ian,Grapes,8,1.34,2025-01-18,
+612,,Mango,10,5.58,2025-02-17,Good service
+613,Bob,Watermelon,6,9.45,2025-01-22,
+614,Ian,Pineapple,7,3.35,2025-03-27,Late delivery
+615,Eve,Orange,4,9.91,2025-01-03,
+616,Alice,Pineapple,6,3.24,2025-02-28,
+617,Ian,Orange,3,6.11,2025-03-10,
+618,David,Pineapple,4,8.12,2025-03-02,Excellent
+619,,Orange,8,6.14,2025-01-16,Good service
+620,Hannah,Banana,2,4.86,2025-01-12,Good service
+621,Frank,Grapes,1,5.9,2025-03-08,Late delivery
+622,Frank,Grapes,3,7.95,2025-02-08,
+623,Charlie,Pineapple,3,5.38,2025-02-21,Excellent
+624,Hannah,Watermelon,3,5.26,2025-02-16,
+625,Charlie,Pineapple,3,5.9,2025-03-17,Excellent
+626,Ian,Watermelon,8,9.65,2025-03-29,
+627,,Banana,3,9.23,2025-03-09,Excellent
+628,,Watermelon,9,0.51,2025-01-09,
+629,Jane,Orange,3,9.22,2025-01-03,Excellent
+630,Ian,Mango,4,6.72,2025-02-26,Good service
+631,Ian,Pineapple,3,2.38,2025-01-04,Good service
+632,Hannah,Banana,,0.89,2025-01-24,Late delivery
+633,Alice,Apple,7,1.39,2025-02-02,
+634,Frank,Pineapple,1,5.34,2025-01-16,Excellent
+635,Jane,Mango,7,8.86,2025-03-05,
+636,,Grapes,,3.43,2025-02-23,Late delivery
+637,Bob,Watermelon,9,6.95,2025-01-29,
+638,Jane,Grapes,10,4.13,2025-03-07,Good service
+639,Jane,Banana,2,7.75,2025-02-05,Late delivery
+640,Bob,Apple,7,4.06,2025-01-29,Excellent
+641,Frank,Mango,9,8.63,2025-03-28,Excellent
+642,Grace,Grapes,5,4.71,2025-01-26,Good service
+643,Frank,Watermelon,1,4.84,2025-03-03,
+644,,Watermelon,3,1.82,2025-02-09,Good service
+645,Alice,Apple,9,9.63,2025-03-19,
+646,Alice,Mango,7,2.32,2025-03-06,Good service
+647,,Pineapple,9,5.56,2025-02-16,Good service
+648,,Pineapple,4,2.14,2025-01-27,Late delivery
+649,David,Pineapple,9,6.18,2025-03-13,Excellent
+650,Frank,Banana,5,1.22,2025-02-10,
+651,,Mango,3,8.43,2025-03-08,
+652,Grace,Grapes,6,7.3,2025-01-09,Good service
+653,Ian,Pineapple,5,2.27,2025-03-03,
+654,Ian,Mango,9,8.76,2025-02-18,
+655,Hannah,Watermelon,7,6.95,2025-01-04,
+656,Hannah,Pineapple,7,1.25,2025-03-27,
+657,Bob,Mango,9,0.96,2025-03-03,
+658,David,Grapes,2,0.81,2025-03-14,Excellent
+659,Bob,Mango,10,4.9,2025-03-07,Good service
+660,Jane,Orange,,3.11,2025-03-20,Excellent
+661,Jane,Apple,8,3.11,2025-02-28,
+662,Charlie,Banana,,5.98,2025-01-11,Excellent
+663,Hannah,Grapes,5,9.44,2025-02-02,Late delivery
+664,Ian,Mango,9,3.58,2025-03-30,Excellent
+665,Hannah,Mango,6,7.58,2025-01-08,Late delivery
+666,Hannah,Pineapple,6,2.41,2025-01-20,Good service
+667,Eve,Orange,9,4.07,2025-01-25,Good service
+668,Bob,Watermelon,8,0.68,2025-02-08,Late delivery
+669,Charlie,Watermelon,5,8.23,2025-01-29,
+670,David,Watermelon,7,6.12,2025-03-09,Good service
+671,Bob,Apple,10,7.53,2025-03-12,
+672,Grace,Banana,,1.2,2025-01-05,
+673,Frank,Watermelon,,8.84,2025-02-19,Good service
+674,Ian,Apple,7,7.19,2025-03-29,
+675,David,Mango,10,4.42,2025-02-12,
+676,David,Pineapple,7,7.55,2025-03-26,Late delivery
+677,,Apple,1,7.58,2025-03-15,Good service
+678,David,Pineapple,4,5.65,2025-01-01,
+679,Jane,Apple,5,9.61,2025-03-06,
+680,Jane,Orange,2,4.15,2025-02-25,Excellent
+681,Ian,Pineapple,,7.9,2025-02-05,Good service
+682,Frank,Banana,5,4.88,2025-03-08,Late delivery
+683,Grace,Apple,5,5.74,2025-02-01,Good service
+684,Frank,Mango,5,3.61,2025-03-31,Good service
+685,Ian,Banana,2,5.07,2025-03-13,Excellent
+686,Bob,Watermelon,6,7.86,2025-02-28,
+687,Charlie,Apple,4,9.31,2025-03-04,
+688,Eve,Banana,9,0.92,2025-03-07,
+689,,Mango,6,9.88,2025-03-03,
+690,Charlie,Banana,3,6.88,2025-03-06,
+691,Eve,Orange,8,3.42,2025-01-19,
+692,,Pineapple,10,9.34,2025-03-06,Excellent
+693,Ian,Watermelon,10,5.45,2025-02-14,Good service
+694,Hannah,Banana,9,6.77,2025-02-19,Late delivery
+695,Bob,Watermelon,10,5.76,2025-01-29,
+696,Grace,Orange,9,6.94,2025-02-09,Good service
+697,Alice,Apple,,4.89,2025-03-17,
+698,Hannah,Mango,4,4.26,2025-03-23,Excellent
+699,Jane,Grapes,1,1.01,2025-01-09,
+700,David,Mango,7,8.12,2025-01-07,
+701,,Orange,2,8.36,2025-02-06,Late delivery
+702,Charlie,Apple,9,1.94,2025-03-09,
+703,Eve,Mango,10,7.17,2025-01-08,
+704,Alice,Watermelon,1,5.43,2025-02-01,Excellent
+705,Jane,Watermelon,3,2.83,2025-03-15,Late delivery
+706,David,Apple,7,9.76,2025-02-22,Good service
+707,Bob,Watermelon,5,1.54,2025-01-11,Late delivery
+708,Eve,Apple,8,7.47,2025-03-14,Excellent
+709,Bob,Watermelon,2,3.48,2025-01-29,Good service
+710,Jane,Apple,3,8.4,2025-03-31,
+711,Jane,Pineapple,10,4.95,2025-03-11,Late delivery
+712,Eve,Banana,5,4.04,2025-02-26,
+713,Grace,Watermelon,8,8.36,2025-03-02,Good service
+714,Frank,Apple,10,7.81,2025-01-10,Good service
+715,Eve,Apple,8,0.93,2025-01-10,Good service
+716,Alice,Banana,10,2.53,2025-01-22,
+717,Hannah,Banana,7,4.1,2025-01-13,
+718,,Mango,6,7.67,2025-01-21,
+719,Jane,Watermelon,9,3.36,2025-01-25,Good service
+720,Hannah,Watermelon,4,2.33,2025-02-05,
+721,Alice,Watermelon,3,7.07,2025-01-24,
+722,Bob,Orange,10,3.03,2025-03-25,
+723,Eve,Mango,8,6.42,2025-03-20,Good service
+724,,Watermelon,9,6.27,2025-02-28,Good service
+725,Charlie,Apple,3,6.36,2025-03-10,Excellent
+726,Grace,Orange,2,9.57,2025-03-24,Late delivery
+727,Ian,Grapes,2,8.65,2025-03-11,Good service
+728,Ian,Pineapple,,2.12,2025-03-03,Excellent
+729,Ian,Banana,3,7.17,2025-01-30,Late delivery
+730,Grace,Pineapple,2,5.44,2025-02-22,
+731,Eve,Banana,6,8.47,2025-03-12,Late delivery
+732,Bob,Grapes,9,1.21,2025-01-03,
+733,Grace,Mango,1,6.66,2025-03-27,
+734,Charlie,Apple,4,2.86,2025-01-25,
+735,Alice,Watermelon,,2.39,2025-02-13,
+736,Bob,Apple,,4.79,2025-03-27,Good service
+737,Hannah,Apple,,3.91,2025-03-18,
+738,Alice,Pineapple,,10.0,2025-02-03,
+739,Eve,Orange,4,3.17,2025-01-17,Excellent
+740,David,Grapes,8,3.03,2025-02-12,
+741,David,Mango,8,8.99,2025-03-30,Late delivery
+742,Eve,Banana,3,3.1,2025-03-11,Good service
+743,Frank,Pineapple,5,6.59,2025-01-19,Good service
+744,Charlie,Orange,8,3.5,2025-02-02,
+745,Ian,Banana,6,1.93,2025-02-06,
+746,Charlie,Pineapple,7,8.45,2025-02-07,
+747,David,Orange,7,6.17,2025-02-05,Excellent
+748,Eve,Apple,3,8.57,2025-03-19,
+749,Eve,Orange,1,7.12,2025-01-22,
+750,David,Apple,3,4.03,2025-03-18,Good service
+751,Grace,Grapes,7,6.56,2025-03-28,Late delivery
+752,Frank,Grapes,4,7.13,2025-02-15,
+753,Jane,Pineapple,8,6.51,2025-03-15,Late delivery
+754,Ian,Grapes,6,1.91,2025-02-28,
+755,Charlie,Orange,5,2.0,2025-03-20,Excellent
+756,Hannah,Orange,5,5.77,2025-02-22,Excellent
+757,Ian,Orange,10,9.69,2025-01-26,
+758,Jane,Pineapple,4,1.54,2025-03-21,Excellent
+759,Grace,Pineapple,10,2.66,2025-02-14,Good service
+760,Ian,Mango,10,1.59,2025-03-29,
+761,Charlie,Mango,3,9.01,2025-03-29,Late delivery
+762,Frank,Grapes,,7.05,2025-03-05,Late delivery
+763,Alice,Apple,4,9.16,2025-01-20,Late delivery
+764,Grace,Banana,4,9.29,2025-02-26,
+765,Grace,Orange,10,3.41,2025-01-13,Excellent
+766,,Grapes,6,5.36,2025-01-19,
+767,Charlie,Pineapple,3,9.19,2025-03-29,
+768,Frank,Pineapple,9,7.86,2025-01-17,Excellent
+769,Bob,Watermelon,5,7.84,2025-01-24,
+770,Ian,Watermelon,9,6.74,2025-01-21,
+771,Frank,Mango,1,9.13,2025-03-28,
+772,,Apple,10,8.43,2025-03-25,Late delivery
+773,Frank,Banana,8,2.69,2025-01-20,
+774,Hannah,Banana,2,6.14,2025-01-29,Excellent
+775,Hannah,Pineapple,3,4.27,2025-03-20,Late delivery
+776,Ian,Mango,2,8.09,2025-03-20,Good service
+777,Bob,Watermelon,5,4.37,2025-03-21,Good service
+778,Eve,Banana,3,6.88,2025-02-17,Good service
+779,Hannah,Orange,8,4.75,2025-01-23,
+780,Ian,Orange,10,4.57,2025-03-08,Good service
+781,Charlie,Apple,,4.53,2025-01-07,Good service
+782,Alice,Banana,9,7.64,2025-01-30,
+783,Charlie,Pineapple,9,0.86,2025-03-01,
+784,Ian,Grapes,,1.01,2025-02-25,Excellent
+785,Ian,Orange,7,5.83,2025-02-14,Good service
+786,Charlie,Banana,10,8.38,2025-01-19,Good service
+787,Hannah,Grapes,1,2.17,2025-01-28,Excellent
+788,Grace,Pineapple,4,4.12,2025-02-12,Excellent
+789,Ian,Watermelon,9,1.81,2025-01-05,Good service
+790,Frank,Banana,1,4.12,2025-02-23,Excellent
+791,David,Watermelon,3,4.4,2025-01-11,
+792,Bob,Pineapple,2,8.67,2025-02-25,Late delivery
+793,Jane,Pineapple,5,2.04,2025-01-20,
+794,Bob,Banana,2,5.86,2025-03-20,Good service
+795,Eve,Watermelon,10,1.1,2025-01-07,Excellent
+796,Hannah,Apple,5,0.82,2025-01-04,Late delivery
+797,Charlie,Grapes,7,8.85,2025-02-05,Excellent
+798,Jane,Watermelon,10,1.32,2025-01-14,
+799,Eve,Pineapple,5,8.07,2025-03-27,
+800,Hannah,Apple,5,1.42,2025-01-25,
+801,Eve,Watermelon,1,4.18,2025-02-02,
+802,Grace,Grapes,1,3.42,2025-02-02,
+803,Eve,Orange,8,5.58,2025-03-11,Good service
+804,Grace,Watermelon,2,2.16,2025-03-10,Late delivery
+805,Eve,Orange,,3.08,2025-03-31,Late delivery
+806,Grace,Apple,10,1.1,2025-01-25,Excellent
+807,Eve,Apple,5,0.66,2025-01-23,
+808,Bob,Watermelon,10,2.67,2025-01-16,
+809,Jane,Watermelon,1,1.78,2025-03-11,Good service
+810,Charlie,Mango,7,8.71,2025-03-11,Excellent
+811,Eve,Mango,3,8.58,2025-01-07,
+812,Eve,Mango,5,1.66,2025-03-02,Good service
+813,David,Orange,1,0.89,2025-03-21,Late delivery
+814,Bob,Pineapple,6,5.74,2025-03-03,Good service
+815,David,Pineapple,4,5.8,2025-01-29,Late delivery
+816,Hannah,Pineapple,3,8.84,2025-03-09,Good service
+817,Hannah,Watermelon,10,0.75,2025-03-05,Late delivery
+818,Ian,Watermelon,,4.31,2025-03-22,
+819,Bob,Orange,9,1.64,2025-01-30,
+820,David,Banana,,0.76,2025-01-30,Excellent
+821,Ian,Pineapple,9,7.98,2025-01-11,Late delivery
+822,Jane,Mango,3,2.72,2025-03-28,Late delivery
+823,Jane,Pineapple,,8.65,2025-03-14,
+824,Bob,Orange,1,7.94,2025-02-10,
+825,Hannah,Banana,8,4.24,2025-03-12,Late delivery
+826,Alice,Orange,1,5.48,2025-03-23,
+827,,Mango,7,3.13,2025-01-18,Good service
+828,Grace,Banana,9,4.07,2025-01-20,Late delivery
+829,Jane,Mango,4,0.64,2025-03-05,Late delivery
+830,,Orange,4,2.14,2025-02-06,Excellent
+831,Ian,Pineapple,10,4.52,2025-02-06,
+832,Grace,Grapes,2,5.07,2025-03-23,Good service
+833,David,Mango,5,2.94,2025-02-14,Good service
+834,David,Pineapple,6,9.3,2025-03-25,
+835,Hannah,Grapes,7,7.39,2025-03-17,Late delivery
+836,Frank,Apple,5,8.59,2025-02-08,
+837,,Mango,10,8.0,2025-01-28,
+838,Grace,Banana,7,5.49,2025-03-23,Late delivery
+839,Bob,Watermelon,5,7.98,2025-01-13,
+840,Bob,Watermelon,1,8.58,2025-02-27,
+841,Jane,Banana,6,1.23,2025-02-11,Late delivery
+842,Jane,Pineapple,6,5.4,2025-02-03,Excellent
+843,Bob,Orange,10,0.83,2025-03-01,Good service
+844,Hannah,Pineapple,,5.0,2025-01-06,
+845,Eve,Apple,4,1.15,2025-03-23,Late delivery
+846,,Banana,4,5.79,2025-02-18,
+847,Frank,Orange,2,5.97,2025-02-15,Good service
+848,Bob,Pineapple,2,8.13,2025-02-05,
+849,David,Mango,5,3.61,2025-02-28,
+850,Charlie,Mango,10,3.26,2025-02-12,Excellent
+851,Eve,Watermelon,1,5.01,2025-01-15,
+852,Eve,Mango,1,6.1,2025-01-26,Good service
+853,Bob,Apple,4,1.53,2025-02-19,
+854,Jane,Apple,8,1.03,2025-01-02,Good service
+855,Bob,Pineapple,4,1.99,2025-03-18,Excellent
+856,David,Orange,7,7.05,2025-01-17,Late delivery
+857,Grace,Apple,,3.48,2025-01-18,Late delivery
+858,David,Pineapple,6,1.66,2025-01-10,
+859,Frank,Apple,6,9.29,2025-01-14,
+860,Bob,Mango,9,9.27,2025-01-14,
+861,Frank,Grapes,5,3.59,2025-01-05,Late delivery
+862,Grace,Watermelon,7,6.9,2025-01-14,Good service
+863,Bob,Orange,8,9.03,2025-01-04,Excellent
+864,Alice,Apple,,7.24,2025-01-25,Good service
+865,Charlie,Banana,8,8.65,2025-01-11,Excellent
+866,Eve,Apple,6,9.16,2025-03-13,Late delivery
+867,Alice,Banana,2,1.5,2025-02-08,Excellent
+868,Frank,Orange,4,5.45,2025-02-14,Good service
+869,,Orange,8,4.46,2025-02-28,
+870,Charlie,Orange,7,2.18,2025-02-14,
+871,Frank,Grapes,4,4.56,2025-01-04,
+872,Hannah,Banana,1,6.64,2025-01-27,Late delivery
+873,Frank,Banana,6,2.06,2025-02-15,Good service
+874,Frank,Banana,4,8.35,2025-02-17,
+875,Jane,Watermelon,8,4.53,2025-02-17,
+876,Charlie,Mango,5,2.03,2025-03-21,Good service
+877,Ian,Banana,7,4.08,2025-02-03,Excellent
+878,Frank,Pineapple,10,9.58,2025-03-18,
+879,Ian,Watermelon,10,0.83,2025-01-24,
+880,Alice,Mango,10,1.43,2025-01-06,Late delivery
+881,Alice,Apple,8,1.28,2025-02-01,Late delivery
+882,Frank,Orange,2,1.95,2025-03-07,Good service
+883,,Pineapple,9,6.2,2025-03-07,Excellent
+884,Alice,Apple,10,4.41,2025-02-04,Excellent
+885,Eve,Watermelon,3,4.23,2025-01-16,
+886,Bob,Mango,,5.37,2025-03-14,Late delivery
+887,Charlie,Apple,10,3.17,2025-02-18,
+888,Hannah,Banana,,7.64,2025-03-08,Excellent
+889,Jane,Watermelon,1,6.66,2025-01-10,Good service
+890,Alice,Mango,5,9.17,2025-01-24,Late delivery
+891,,Pineapple,10,1.6,2025-03-23,Late delivery
+892,Alice,Apple,1,3.15,2025-02-11,
+893,Frank,Mango,1,2.12,2025-03-12,Late delivery
+894,Frank,Pineapple,1,1.42,2025-01-17,
+895,Grace,Grapes,,9.52,2025-03-02,
+896,Hannah,Orange,9,4.5,2025-02-13,
+897,Frank,Pineapple,4,7.42,2025-03-30,Good service
+898,,Watermelon,10,7.71,2025-01-26,
+899,Jane,Apple,2,6.42,2025-01-10,Late delivery
+900,Bob,Mango,6,7.24,2025-02-09,Late delivery
+901,,Grapes,7,6.95,2025-01-02,Late delivery
+902,Alice,Orange,1,3.7,2025-01-20,
+903,Bob,Grapes,4,7.6,2025-02-11,Late delivery
+904,Hannah,Pineapple,,2.38,2025-03-13,Late delivery
+905,,Banana,7,7.5,2025-01-18,Late delivery
+906,Jane,Apple,4,3.84,2025-03-07,Excellent
+907,Eve,Watermelon,2,4.72,2025-03-07,Late delivery
+908,Ian,Watermelon,,6.28,2025-01-13,Excellent
+909,Grace,Watermelon,5,6.03,2025-01-15,Good service
+910,,Mango,,8.46,2025-02-18,
+911,Charlie,Apple,2,3.86,2025-02-02,Late delivery
+912,Grace,Grapes,7,2.38,2025-03-06,
+913,Eve,Apple,9,2.57,2025-02-04,Late delivery
+914,Hannah,Orange,7,9.51,2025-03-06,Good service
+915,Jane,Banana,4,4.7,2025-01-02,Late delivery
+916,Charlie,Banana,9,8.02,2025-02-18,Late delivery
+917,Charlie,Watermelon,9,7.49,2025-03-23,Late delivery
+918,Eve,Banana,8,4.65,2025-02-28,Excellent
+919,Ian,Grapes,7,8.35,2025-02-13,Good service
+920,Charlie,Watermelon,3,8.87,2025-02-03,Excellent
+921,Frank,Banana,2,6.89,2025-02-20,
+922,Eve,Banana,7,3.94,2025-03-09,Good service
+923,Bob,Mango,10,4.14,2025-01-21,
+924,David,Banana,8,5.16,2025-01-02,
+925,Jane,Grapes,2,7.0,2025-01-07,Good service
+926,,Banana,4,5.23,2025-01-22,
+927,Charlie,Grapes,10,4.05,2025-02-07,Excellent
+928,Hannah,Orange,1,4.1,2025-01-26,
+929,,Grapes,2,5.08,2025-02-10,Good service
+930,,Grapes,4,7.22,2025-02-14,Good service
+931,Grace,Apple,9,0.86,2025-02-05,
+932,Hannah,Apple,4,5.43,2025-03-14,Excellent
+933,Alice,Apple,8,4.78,2025-02-23,Late delivery
+934,,Apple,2,7.72,2025-02-01,Late delivery
+935,Charlie,Orange,7,8.09,2025-02-08,
+936,David,Watermelon,10,0.85,2025-01-08,
+937,David,Orange,9,7.07,2025-03-15,Late delivery
+938,Bob,Pineapple,9,7.36,2025-01-20,Good service
+939,Grace,Grapes,6,6.65,2025-01-07,
+940,Charlie,Orange,1,1.59,2025-03-29,
+941,Eve,Pineapple,7,6.6,2025-02-12,
+942,Frank,Banana,2,5.97,2025-01-15,
+943,Hannah,Pineapple,9,5.72,2025-03-15,Late delivery
+944,,Apple,3,0.98,2025-03-30,Late delivery
+945,,Grapes,4,9.27,2025-01-06,
+946,,Orange,7,2.54,2025-03-05,
+947,Charlie,Banana,2,3.66,2025-03-06,Excellent
+948,Ian,Apple,6,2.44,2025-02-12,
+949,Ian,Pineapple,9,9.86,2025-03-17,
+950,Hannah,Grapes,,6.91,2025-02-09,
+951,Bob,Orange,2,3.22,2025-01-13,Good service
+952,Frank,Apple,4,1.81,2025-01-09,
+953,David,Banana,5,7.38,2025-01-21,Good service
+954,,Pineapple,5,7.1,2025-02-18,
+955,Frank,Grapes,9,7.22,2025-02-01,
+956,,Pineapple,7,7.82,2025-03-27,Excellent
+957,,Mango,8,5.7,2025-03-14,Late delivery
+958,David,Apple,8,9.91,2025-01-15,
+959,Hannah,Banana,2,8.52,2025-02-10,
+960,Eve,Banana,8,5.61,2025-01-21,Excellent
+961,Ian,Grapes,8,2.44,2025-01-20,Good service
+962,,Watermelon,5,4.86,2025-03-30,
+963,Jane,Orange,2,1.84,2025-03-26,
+964,Jane,Banana,,3.81,2025-03-29,Late delivery
+965,Alice,Orange,3,1.35,2025-01-22,
+966,Bob,Orange,,8.76,2025-02-24,Excellent
+967,,Watermelon,3,1.57,2025-02-07,
+968,Jane,Pineapple,,5.69,2025-02-28,
+969,David,Banana,3,9.89,2025-02-13,
+970,,Watermelon,2,0.95,2025-02-19,Excellent
+971,Charlie,Pineapple,9,9.86,2025-01-10,Late delivery
+972,Alice,Watermelon,1,0.65,2025-01-20,Late delivery
+973,Ian,Apple,7,3.97,2025-01-13,Excellent
+974,Eve,Apple,7,9.57,2025-02-23,Late delivery
+975,Jane,Mango,,1.63,2025-01-20,Excellent
+976,,Apple,7,3.65,2025-02-09,
+977,Jane,Pineapple,9,4.82,2025-01-08,Good service
+978,Jane,Banana,6,6.45,2025-01-06,
+979,Frank,Watermelon,,7.3,2025-01-27,
+980,Eve,Watermelon,8,9.44,2025-03-20,Late delivery
+981,Bob,Banana,1,9.9,2025-01-17,Excellent
+982,Jane,Orange,2,6.32,2025-03-21,
+983,Hannah,Orange,,5.02,2025-03-01,Good service
+984,Hannah,Banana,4,5.13,2025-03-30,Late delivery
+985,Hannah,Watermelon,10,6.24,2025-01-18,Good service
+986,Grace,Watermelon,7,9.21,2025-02-24,Good service
+987,Alice,Orange,8,1.24,2025-02-03,
+988,Bob,Banana,1,6.51,2025-01-25,Good service
+989,David,Apple,10,5.62,2025-02-18,Good service
+990,Charlie,Grapes,7,5.77,2025-03-24,Good service
+991,Alice,Pineapple,4,2.77,2025-02-04,Good service
+992,Hannah,Apple,3,1.71,2025-03-21,
+993,Charlie,Watermelon,4,1.67,2025-03-26,
+994,Jane,Grapes,8,0.66,2025-03-22,
+995,Jane,Banana,1,6.4,2025-03-08,Good service
+996,Bob,Pineapple,5,3.43,2025-01-12,
+997,Frank,Watermelon,10,8.86,2025-03-05,Late delivery
+998,Jane,Watermelon,3,6.11,2025-02-15,Good service
+999,,Watermelon,7,9.51,2025-02-14,
+1000,Jane,Pineapple,10,8.76,2025-02-27,

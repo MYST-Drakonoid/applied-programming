@@ -1,0 +1,6 @@
+OrderID,Customer,Item,Quantity,Price
+1,Alice,Apple,2,1.5
+2,Bob,Banana,3,0.8
+3,Charlie,Apple,1,1.5
+4,Alice,Orange,5,1.2
+5,David,Banana,2,0.8
