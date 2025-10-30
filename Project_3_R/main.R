@@ -45,6 +45,11 @@ aggregation_tables <- aggregation_general(clean_data_table)
 # ----------------------------
 write.csv(numberTable, "Project_3_R/dataOutput/number_data.csv", row.names = FALSE)
 
+
+output_dir <- "Project_3_R/dataOutput"
+if (!dir.exists(output_dir)) dir.create(output_dir, recursive = TRUE)
+
+
 # Write date tables
 for (name in names(Date_tables)) {
   file_path <- file.path(output_dir, paste0(name, ".csv"))
