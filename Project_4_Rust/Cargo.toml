@@ -1,0 +1,23 @@
+[package]
+name = "file_encryptor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# AEAD (authenticated) encryption
+chacha20poly1305 = "0.10"      # ChaCha20-Poly1305 AEAD (also supports XChaCha20Poly1305)
+
+# Randomness for keys / nonces
+rand = "0.8"                   # securely generate keys/IVs/nonces.
+
+# Logging
+log = "0.4"                    # logging facade
+env_logger = "0.9"             # simple logger configured from environment (stdout/stderr)
+
+# Filesystem utilities
+walkdir = "2.3"                # recursive directory traversal (listing files)
+notify = "8.2"                 # optional: filesystem watcher for live folder events
+
+# Helpful utilities
+anyhow = "1.0"                 # ergonomic error handling in applications
+base64 = "0.21"                # encode/decode bytes for human-readable output/storage (optional)
