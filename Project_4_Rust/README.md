@@ -8,7 +8,7 @@ My program is an **encryption/decryption tool written in Rust**. The idea is tha
 
 I wrote this project because I thought it would be interesting given my training in security. While I wasn’t able to execute it exactly as I envisioned, it works well for this project.  
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/A8eBexcgzYM)
 
 ---
 
