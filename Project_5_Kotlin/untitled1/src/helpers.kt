@@ -75,6 +75,9 @@ class helpers {
         Sleight_of_Hand(AbilityScores.Dexterity, "Used for picking pockets or manipulating objects"),
         Stealth(AbilityScores.Dexterity, "Used for sneaking or hiding"),
         Survival(AbilityScores.Wisdom, "Used for tracking, hunting, and surviving in the wild")
+
+
+
     }
 
 
@@ -93,6 +96,74 @@ class helpers {
                 in 17..20 -> 6
                 else -> 6
             }
+        }
+
+        fun normalizeSkillInput(input: String): String =
+            input.trim().lowercase().replace("-", " ").replace("_", " ")
+
+        val skillAliases = mapOf(
+            "acrobatics" to ProficienciesSkill.Acrobatics,
+            "animal handling" to ProficienciesSkill.Animal_Handling,
+            "animal_handling" to ProficienciesSkill.Animal_Handling,
+            "animal-handling" to ProficienciesSkill.Animal_Handling,
+
+            "arcana" to ProficienciesSkill.Arcana,
+            "athletics" to ProficienciesSkill.Athletics,
+            "deception" to ProficienciesSkill.Deception,
+            "history" to ProficienciesSkill.History,
+            "insight" to ProficienciesSkill.Insight,
+            "intimidation" to ProficienciesSkill.Intimidation,
+            "investigation" to ProficienciesSkill.Investigation,
+            "medicine" to ProficienciesSkill.Medicine,
+            "nature" to ProficienciesSkill.Nature,
+            "perception" to ProficienciesSkill.Perception,
+            "performance" to ProficienciesSkill.Performance,
+            "persuasion" to ProficienciesSkill.Persuasion,
+            "religion" to ProficienciesSkill.Religion,
+
+            "sleight of hand" to ProficienciesSkill.Sleight_of_Hand,
+            "sleight_of_hand" to ProficienciesSkill.Sleight_of_Hand,
+            "sleight-of-hand" to ProficienciesSkill.Sleight_of_Hand,
+
+            "stealth" to ProficienciesSkill.Stealth,
+            "survival" to ProficienciesSkill.Survival
+        )
+
+        val abilityAliases = mapOf(
+            "str" to AbilityScores.Strength,
+            "strength" to AbilityScores.Strength,
+
+            "dex" to AbilityScores.Dexterity,
+            "dexterity" to AbilityScores.Dexterity,
+
+            "con" to AbilityScores.Constitution,
+            "constitution" to AbilityScores.Constitution,
+
+            "int" to AbilityScores.Intelligence,
+            "intelligence" to AbilityScores.Intelligence,
+
+            "wis" to AbilityScores.Wisdom,
+            "wisdom" to AbilityScores.Wisdom,
+
+            "cha" to AbilityScores.Charisma,
+            "charisma" to AbilityScores.Charisma
+        )
+    }
+
+    class mod{
+        companion object {
+            fun getStrengthModifier(score: Int): Int {
+                return if (score >= 10) {
+                    // Every 2 points above 10 gives +1
+                    (score - 10) / 2
+                } else {
+                    // Every 2 points below 10 subtracts 1
+                    (score - 10) / 2  // This will be negative automatically
+                }
+            }
+
+
+
         }
     }
 }
