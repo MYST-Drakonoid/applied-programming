@@ -4,7 +4,8 @@ import javax.swing.border.EmptyBorder
 
 /**
  * Simple combat dashboard for controlling a Monster instance.
- * Uses classic Java Swing so it works without Gradle or Android.
+ *
+ * this calss was written using the assistance of Generative AI !!PLEASE DO NOT GRADE!!
  */
 class CombatDashboard(private val monster: monster_tracker.Monster) : JFrame("Monster Combat UI") {
 
@@ -151,8 +152,8 @@ class CombatDashboard(private val monster: monster_tracker.Monster) : JFrame("Mo
 
     private fun doAbilityCheck() {
         val ability = JOptionPane.showInputDialog(this, "Enter ability (str, dex, etc.)") ?: return
-        monster.abilityCheck(null, ability)
-        appendLog("Ability check: $ability")
+        val item = monster.abilityCheck(null, ability)
+        appendLog("Ability check: $ability, Result: $item")
         refreshStats()
     }
 

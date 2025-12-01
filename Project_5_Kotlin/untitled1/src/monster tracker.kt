@@ -465,9 +465,9 @@ class monster_tracker {
             else {
                 attackParts = this.attack.split(" ")
 
-                attackStat = helpers.AbilityScores.valueOf(
-                    attackParts[1].replaceFirstChar { it.uppercase() }
-                )
+                val cleanStat = helpers.normalizeSkillInput(attackParts[1])
+                attackStat = helpers.abilityAliases[cleanStat]?:helpers.AbilityScores.Strength
+
 
                 damageType = helpers.DamageTypes.valueOf(
                     attackParts[2].replaceFirstChar { it.uppercase() }
@@ -506,25 +506,13 @@ class monster_tracker {
         }
 
 
-
-        /**
-         * Performs a SKILL CHECK based on user input.
-         *
-         * This function ONLY accepts skill names (acrobatics, stealth, history, etc.).
-         * Ability checks like "str", "strength", "dex", etc. are NOT allowed.
-         *
-         * @param override Optional: "adv", "dis", or null for normal roll.
-         * @param check The user-entered skill name.
-         */
-
-
         /**
          * Performs a RAW ABILITY CHECK (Strength, Dexterity, etc.)
          *
          * @param override "adv", "dis", or null
          * @param ability The user-entered ability name (e.g., "strength", "str")
          */
-        fun abilityCheck(override: String? = null, ability: String) {
+        fun abilityCheck(override: String? = null, ability: String): String {
 
             // Roll the d20 normally/adv/dis
             val roll = rollAttack(override)
@@ -534,12 +522,9 @@ class monster_tracker {
 
             // Convert string to enum AbilityScores
             val abilityEnum = helpers.abilityAliases[cleaned]
+                ?: return("Invalid ability: '$ability'. Please enter STR/DEX/CON/INT/WIS/CHA.")
 
             // If user entered an invalid ability → stop
-            if (abilityEnum == null) {
-                println("Invalid ability: '$ability'. Please enter STR/DEX/CON/INT/WIS/CHA.")
-                return
-            }
 
             // Get ability modifier
             val mod = helpers.mod.getStrengthModifier(this.stat.get(abilityEnum))
@@ -547,7 +532,9 @@ class monster_tracker {
             // RAW ability check = roll + mod (NO PROFICIENCY)
             val total = roll + mod
 
-            println("Ability check (${abilityEnum.name}): $total")
+            return ("Ability check (${abilityEnum.name}): $total")
+
+
         }
 
 
