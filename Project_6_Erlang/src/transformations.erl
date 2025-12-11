@@ -10,7 +10,9 @@ abs_val/1,
 is_even/1,
 is_large/1,
 is_positive/1,
-factorize_row/1
+factorial_man/1,
+factorize/1,
+factors_to_string/1
 
 ]).
 
@@ -39,23 +41,48 @@ is_large(N) -> N > 1000.
 is_positive(N) -> N > 0.
 
 
-factorize(N) when N > 1 ->
-    factorize(N, 2).
 
-factorize(1, _) ->
-    [].
+factorize({N, D}) ->
+    if
+        N =< 1 ->
+            [];                         % base case
 
-factorize(N, D) when N rem D =:= 0 ->
-    [D | factorize(N div D, D)];
+        N rem D =:= 0 ->
+            [D | factorize({N div D, D})];   % dependent recursion
 
-factorize(N, D) ->
-    factorize(N, D + 1).
+        D < N ->
+            factorize({N, D + 1});      % continue searching
 
-factorize_row(N) -> 
-    #{
-        number => N,
-        factors => factorize(N)
-    }.
+        true ->
+            [N]                         % remaining N is prime
+    end.
+
+%% Wrapper for clean usage
+factorial_man(N) ->
+    if
+        N < 0 ->
+            error({invalid_input, N});
+
+        N > 30 ->
+            "Too_Large";
+
+        true ->
+            factorial_gen_internal(N)
+    end.
 
 
+factorial_gen_internal(N) ->
+    if
+        N == 0 ->
+            1;
 
+        N > 0 ->
+            N * factorial_gen_internal(N - 1);
+
+        true ->
+            error({invalid_input, N})
+    end.
+
+factors_to_string(Factors) ->
+    Strings = [integer_to_list(F) || F <- Factors],
+    string:join(Strings, ",").
