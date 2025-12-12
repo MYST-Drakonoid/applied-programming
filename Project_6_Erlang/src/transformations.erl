@@ -45,19 +45,19 @@ is_positive(N) -> N > 0.
 factorize({N, D}) ->
     if
         N =< 1 ->
-            [];                         % base case
+            [];                       
 
         N rem D =:= 0 ->
-            [D | factorize({N div D, D})];   % dependent recursion
+            [D | factorize({N div D, D})];  
 
         D < N ->
-            factorize({N, D + 1});      % continue searching
+            factorize({N, D + 1});      
 
         true ->
-            [N]                         % remaining N is prime
+            [N]                        
     end.
 
-%% Wrapper for clean usage
+
 factorial_man(N) ->
     if
         N < 0 ->
